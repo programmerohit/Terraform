@@ -1,6 +1,6 @@
 provider "google" {
   credentials = file("account.json")
-  project     = "sap-ariba-cobalt"
+  project     = "my-webserver"
   region      = "us-central1"
 }
 
